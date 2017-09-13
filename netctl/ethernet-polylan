@@ -1,0 +1,15 @@
+Description='Polylan connection'
+Interface=enp0s25
+Connection=ethernet
+Security=wpa-configsection
+IP=dhcp
+Auth8021X=yes
+WPAConfigFile="/etc/wpa_supplicant/ethernet-polylan.conf"
+#WPAConfigSection=(
+#	'key_mgmt=WPA-EAP'
+#	'eap=PEAP'
+#	'phase2="auth=MSCHAPv2"'
+#	'identity="helvethor"'
+#	'password="m0rd0rzz"'
+#	'ca_cert="/etc/ssl/certs/AddTrust_External_Root.pem"'
+#)

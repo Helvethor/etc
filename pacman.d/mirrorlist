@@ -1,0 +1,11 @@
+##
+## Arch Linux repository mirrorlist
+## Sorted by mirror score from mirror status page
+## Generated on 2016-06-01
+##
+
+Server = http://archlinux.mirror.dkm.cz/pub/archlinux/$repo/os/$arch
+Server = http://mirror.metalgamer.eu/archlinux/$repo/os/$arch
+Server = http://mirror.fluxent.de/archlinux/$repo/os/$arch
+Server = http://mirror.23media.de/archlinux/$repo/os/$arch
+Server = http://ftp.tuxdroid.org/archlinux/$repo/os/$arch

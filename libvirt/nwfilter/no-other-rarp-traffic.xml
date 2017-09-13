@@ -1,0 +1,11 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit no-other-rarp-traffic
+or other application using the libvirt API.
+-->
+
+<filter name='no-other-rarp-traffic' chain='rarp' priority='-400'>
+  <uuid>b2e48a2f-13d8-4287-b170-862d0483ed88</uuid>
+  <rule action='drop' direction='inout' priority='1000'/>
+</filter>
