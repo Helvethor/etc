@@ -14,6 +14,6 @@ or other application using the libvirt API.
   <source>
   </source>
   <target>
-    <path>/home/helvethor/cloud/virtual-machines/windows-10</path>
+    <path>/home/helvethor/cloud/vm/windows-10</path>
   </target>
 </pool>
