@@ -5,7 +5,7 @@ OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
 or other application using the libvirt API.
 -->
 
-<domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
+<domain type='kvm'>
   <name>windows-10</name>
   <uuid>71dec279-73a2-4aef-9ace-326030395576</uuid>
   <memory unit='KiB'>4194304</memory>
@@ -127,8 +127,4 @@ or other application using the libvirt API.
     </memballoon>
   </devices>
   <seclabel type='dynamic' model='dac' relabel='yes'/>
-  <qemu:commandline>
-    <qemu:arg value='-net'/>
-    <qemu:arg value='user,smb=/home/helvethor/cloud'/>
-  </qemu:commandline>
 </domain>
